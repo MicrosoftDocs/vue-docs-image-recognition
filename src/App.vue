@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <base-image-input/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BaseImageInput from './components/BaseImageInput'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+     BaseImageInput 
+  },
+  methods: {
   }
 }
 </script>
